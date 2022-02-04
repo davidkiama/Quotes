@@ -8,25 +8,24 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    {
-      id: 1,
-      author: 'Kate',
-      quote: "I am going to stand outside. If anyone asks I'm outstanding ",
-      date: 'Feb 2 2022',
-    },
-    {
-      id: 2,
-      author: 'Shigeta',
-      quote:
-        "Just because you're trash doesn't mean you cant do great things. It's called garbage can not garbage cannot",
-      date: 'Feb 2 2022',
-    },
-    {
-      id: 3,
-      author: 'Beth',
-      quote: 'Anything is possible when you sound caucasian on the phone',
-      date: 'Feb 2 2022',
-    },
+    new Quote(
+      1,
+      'Kate',
+      "I am going to stand outside. If anyone asks I'm outstanding ",
+      'Feb 2 2022'
+    ),
+    new Quote(
+      2,
+      'Shigeta',
+      "Just because you're trash doesn't mean you cant do great things. It's called garbage can not garbage cannot",
+      'Feb 2 2022'
+    ),
+    new Quote(
+      3,
+      'Beth',
+      'Anything is possible when you sound caucasian on the phone',
+      'Feb 2 2022'
+    ),
   ];
 
   constructor() {}
