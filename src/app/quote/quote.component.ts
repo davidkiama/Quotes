@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
     {
       id: 1,
       author: 'Kate',
-      quote: "I am going to stand outside.If anyone asks I'm outstanding ",
+      quote: "I am going to stand outside. If anyone asks I'm outstanding ",
       date: 'Feb 2 2022',
     },
     {
@@ -24,7 +24,7 @@ export class QuoteComponent implements OnInit {
     {
       id: 3,
       author: 'Beth',
-      quote: 'Anything possible when you sound caucasian on the phone',
+      quote: 'Anything is possible when you sound caucasian on the phone',
       date: 'Feb 2 2022',
     },
   ];
