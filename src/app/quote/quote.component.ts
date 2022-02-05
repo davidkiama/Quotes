@@ -28,6 +28,13 @@ export class QuoteComponent implements OnInit {
     ),
   ];
 
+  addNewQuote(quote: any) {
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength + 1;
+    quote.date = new Date();
+    this.quotes.push(quote);
+  }
+
   toggleQuote(index: number) {
     this.quotes[index].showQuote = !this.quotes[index].showQuote;
   }
