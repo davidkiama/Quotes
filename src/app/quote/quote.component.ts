@@ -18,7 +18,7 @@ export class QuoteComponent implements OnInit {
       2,
       'Shigeta',
       "Just because you're trash doesn't mean you cant do great things. It's called garbage can not garbage cannot",
-      new Date(2022, 1, 1)
+      new Date(2022, 1, 5)
     ),
     new Quote(
       3,
