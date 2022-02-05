@@ -12,21 +12,31 @@ export class QuoteComponent implements OnInit {
       1,
       'Kate',
       "I am going to stand outside. If anyone asks I'm outstanding ",
-      'Feb 2 2022'
+      new Date(2022, 1, 1)
     ),
     new Quote(
       2,
       'Shigeta',
       "Just because you're trash doesn't mean you cant do great things. It's called garbage can not garbage cannot",
-      'Feb 2 2022'
+      new Date(2022, 1, 1)
     ),
     new Quote(
       3,
       'Beth',
       'Anything is possible when you sound caucasian on the phone',
-      'Feb 2 2022'
+      new Date(2022, 1, 1)
     ),
   ];
+
+  toggleQuote(index: number) {
+    this.quotes[index].showQuote = !this.quotes[index].showQuote;
+  }
+
+  deleteQuote(isDelete: any, index: any) {
+    if (isDelete) {
+      this.quotes.splice(index, 1);
+    }
+  }
 
   constructor() {}
 
