@@ -9,6 +9,7 @@ import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { TimePassedPipe } from './time-passed.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { HeaderComponent } from './header/header.component';
+import { MostUpvotedDirective } from './most-upvoted.directive';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HeaderComponent } from './header/header.component';
     TimePassedPipe,
     QuoteFormComponent,
     HeaderComponent,
+    MostUpvotedDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
