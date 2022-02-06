@@ -6,6 +6,7 @@
 
          <li>
             {{quote.author|uppercase}}
+            {{quote.id}}
             <button (click)="toggleQuote(i)">Toggle Quote</button>
 
             <app-quote-detail *ngIf="quote.showQuote" [quote]="quote"
