@@ -15,3 +15,12 @@
 .quote {
   padding: 2rem;
 }
+
+.quote__author {
+  font-size: 2rem;
+  display: inline;
+}
+
+.quote__quote {
+  font-size: 1.8rem;
+}
