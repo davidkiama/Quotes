@@ -4,14 +4,15 @@ Quotes Version 1.0
 
 ## Description
 
-This is a fictional web application that sells pizzas. One can place an order and have delivered.
+This is a application that showcases quotes . One can create a upvote, downwnvote or delete a quote.
 
 ## Demo
 
-[Live Demo](https://davidkiama.github.io/Pizzeria-45/)
+[Live Demo](https://github.com/davidkiama/Quotes)
 
 ## Technologies Used
 
+1. Angular
 1. HTML
 1. CSS
 1. Javacript
@@ -22,7 +23,7 @@ This is a fictional web application that sells pizzas. One can place an order an
 
 ## Project setup and instructions
 
-I have deployed the page and here is the [link](https://davidkiama.github.io/Pizzeria-45/). You can also download the entire folder and open the html file on your browser.
+I have deployed the page and here is the [link](https://github.com/davidkiama/Quotes/). You can also download the entire folder and open the html file on your browser.
 
 ## Support and contact details
 
