@@ -8,7 +8,7 @@ This is a application that showcases quotes . One can create a upvote, downwnvot
 
 ## Demo
 
-[Live Demo](https://github.com/davidkiama/Quotes)
+[Live Demo](https://davidkiama.github.io/Quotes/)
 
 ## Technologies Used
 
@@ -23,7 +23,7 @@ This is a application that showcases quotes . One can create a upvote, downwnvot
 
 ## Project setup and instructions
 
-I have deployed the page and here is the [link](https://github.com/davidkiama/Quotes/). You can also download the entire folder and open the html file on your browser.
+I have deployed the page and here is the [link](https://davidkiama.github.io/Quotes/). You can also clone this repo and run it locally with $ ng serve
 
 ## Support and contact details
 
