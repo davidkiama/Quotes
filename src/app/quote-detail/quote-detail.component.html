@@ -1,3 +1,11 @@
 <p> {{quote.quote}} </p>
+<span (click)="upvoteQuote()">
+   Upvote <span #up>{{quote.upvote}} </span>
+</span>
+
+<span (click)="downvoteQuote()">
+   Downvote <span #down>{{quote.upvote}} </span>
+</span>
+<br>
 <span>{{quote.date|timePassed}} </span>
-<button (click)="quoteDelete(true)">Delete</button>
+<button (click)=" quoteDelete(true)">Delete</button>

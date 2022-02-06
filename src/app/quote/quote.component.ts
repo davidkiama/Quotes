@@ -42,7 +42,9 @@ export class QuoteComponent implements OnInit {
     quote.id = quoteLength + 1;
     quote.date = new Date();
 
-    this.quotes.push(quote);
+    let copyQuote: any = JSON.parse(JSON.stringify(quote)); //create a deep copy
+
+    this.quotes.splice(quoteLength, 0, copyQuote);
   }
 
   constructor() {}
