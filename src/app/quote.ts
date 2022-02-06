@@ -10,6 +10,6 @@ export class Quote {
     public downvote: number = 0
   ) {
     //
-    this.showQuote = false;
+    this.showQuote = true;
   }
 }
