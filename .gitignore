@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# ng build --prod --base-href "https://davidkiama.github.io/Quotes/" 
+# npx angular-cli-ghpages --dir=dist/quotes
+
 # Node
 /node_modules
 npm-debug.log
