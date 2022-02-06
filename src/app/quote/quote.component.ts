@@ -7,6 +7,10 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css'],
 })
 export class QuoteComponent implements OnInit {
+  toggleDownSrc = 'assets/img/arrow-download-svgrepo-com.svg';
+  toggleUpSrc = 'assets/img/up-svgrepo-com.svg';
+  toggleAlt = 'Toggle';
+
   quotes: Quote[] = [
     new Quote(
       1,

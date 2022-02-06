@@ -15,6 +15,15 @@ import { Quote } from '../quote';
   styleUrls: ['./quote-detail.component.css'],
 })
 export class QuoteDetailComponent implements OnInit {
+  deleteSrc = 'assets/img/rubbish-svgrepo-com.svg';
+  deleteAlt = 'Delete';
+
+  upvoteSrc = 'assets/img/like-svgrepo-com.svg';
+  upvoteAlt = 'Upvote';
+
+  downvoteSrc = 'assets/img/dislike-svgrepo-com.svg';
+  downvoteAlt = 'Downvote';
+
   @Input() quote: Quote;
   @Output() isDelete = new EventEmitter<boolean>();
 

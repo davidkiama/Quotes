@@ -11,8 +11,8 @@ export class TimePassedPipe implements PipeTransform {
     let days = (today - dayCreated) / (1000 * 3600 * 24);
 
     if (days < 1) {
-      return `${Math.round(days * 24)}h`;
+      return `${Math.round(days * 24)}h ago`;
     }
-    return `${Math.round(days)} d`;
+    return `${Math.round(days)} d ago`;
   }
 }
